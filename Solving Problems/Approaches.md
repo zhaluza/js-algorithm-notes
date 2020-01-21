@@ -22,8 +22,12 @@ Each step will be explained in more detail below:
 - Break It Down
 - Solve/Simplify
 - Look Back & Refactor
-  **1) Understand the Problem**
-  Before you start typing, whiteboarding, etc… take a minute to look at the problem and understand it.
+
+---
+
+### 1) Understand the Problem
+
+Before you start typing, whiteboarding, etc… take a minute to look at the problem and understand it.
 
 Ask yourself these questions (or ask the interviewer if something's unclear):
 
@@ -49,7 +53,8 @@ Write a function that takes two numbers and returns their sum.
 5. How should I label the important pieces of data that are a part of the problem?
    - num1, num2, sum
 
-**2) Explore Examples**
+### 2) Explore Examples
+
 Coming up with concrete examples can help you understand the problem better.
 
 Examples also provide sanity checks that your eventual solution works as it should.
@@ -112,7 +117,7 @@ For example, you could write the following notes for the “charCount” problem
 
 Writing down these steps can make a huge difference if you run out of time during an interview — it can show the interviewer that you know what you’re doing, even if you haven’t finished writing the function.
 
-**4) Solve Or Simplify**
+### 4) Solve Or Simplify
 
 If you can… Solve the problem.
 If you can’t… Solve a simpler problem!
@@ -126,7 +131,8 @@ In other words, ignore the part that’s giving you trouble so that you can focu
 - Write a simplified solution
 - Then incorporate that difficulty back into the problem
 
-**5) Look Back & Refactor**
+### 5) Look Back & Refactor
+
 Yes, you’ve solved it… But you’re not done!
 
 Questions you can ask yourself now:
