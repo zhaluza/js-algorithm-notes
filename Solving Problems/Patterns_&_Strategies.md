@@ -15,7 +15,8 @@ Some examples:
 
 ## Patterns
 
-**Frequency Counter**
+### Frequency Counter
+
 This pattern uses objects or sets to collect values & frequencies of values. It’s usually O(N) time. This can often avoid the need for nested loops or O(N²) operations with arrays/strings.
 
 Used to compare:
@@ -61,7 +62,8 @@ const validAnagram = (str1, str2) => {
 };
 ```
 
-**Multiple Pointers**
+### Multiple Pointers
+
 This method creates pointers or values that correspond to an index or position and move toward the beginning, end, or middle based on a certain position.
 
 Very efficient for solving problems, with minimal space complexity as well.
@@ -112,9 +114,10 @@ console.log(testzero3);
 
 Implement a function called countUniqueValues, which accepts a sorted array, and counts the unique values in the array. There can be negative numbers in the array, but it will always be sorted.
 
-Solution w/o Pointers (did it m’self)
+**SOLUTION (variant of the Colt Steele way)**
 
 ```javascript
+// Create a new array with all unique values, then return the length (more widely applicable to different problems, and unlike Colt's original solution, doesn't mutate the original input)
 const countUniqueValues1 = arr => {
   // Create a copy of the input array (newArr)
   // Create two pointers:
@@ -157,9 +160,7 @@ console.log(testUnique4);
 
 ---
 
-(Everything below to be rewritten)
-
-Sliding Window
+#### Sliding Window
 
 This pattern involves creating a window, which can either be an array or number spanning from one position to another.
 
@@ -167,7 +168,17 @@ Depending on a certain condition, the window either widens or closes (and a new 
 
 Useful for keeping track of a subset of data in an array or string.
 
-Example
+#### Example: maxSubarraySum:
+
+Write a function called maxSubarraySum, which accepts an array of integers and a number called `n`. The function should calculate the maximum sum of `n` consecutive elements in the array.
+
+```javascript
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4); // 17
+maxSubarraySum([4, 2, 1, 6], 1); // 10
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
+maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
+```
 
 Sliding Window Solution
 
