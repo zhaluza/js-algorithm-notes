@@ -173,20 +173,50 @@ Useful for keeping track of a subset of data in an array or string.
 Write a function called maxSubarraySum, which accepts an array of integers and a number called `n`. The function should calculate the maximum sum of `n` consecutive elements in the array.
 
 ```javascript
-maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
-maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4); // 17
-maxSubarraySum([4, 2, 1, 6], 1); // 10
-maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
-maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
+const maxSubarraySum = (arr, num) => {
+  // Create the 'window' by adding together the first n elements of the array
+  // Next, 'slide' the window to the right by subtracting the value of the first element in the window and adding the value of the next element
+
+  // Create a variable called maxSum - 0
+  // Create a variable called tempSum - 0
+  // Account for the edge case: if the array is shorter than the target number (or empty) return null
+  // Create a 'for' loop: start at the beginning and loop through the first 'num' elements
+  // Assign the resulting value to maxSum
+  // Assign tempSum the value of maxSum
+  // Create another 'for' loop, this one starting at arr[num] and looping through the whole array
+  // Subtract the value of the first element in the window and add the value of the next (from maxSum)
+  // Assign this value to tempSum
+  // Use Math.max() to see whether val. of maxSum or tempSum is higher, and assign the result to maxSum
+  // Return maxSum
+
+  let maxSum = 0;
+  let tempSum = 0;
+
+  if (arr.length < num) return null;
+
+  for (let i = 0; i < num; i++) {
+    maxSum += arr[i];
+  }
+  tempSum = maxSum;
+  for (let i = num; i < arr.length; i++) {
+    tempSum = tempSum - arr[i - num] + arr[i];
+    maxSum = Math.max(tempSum, maxSum);
+  }
+  return maxSum;
+};
+
+const test1 = maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2); // 10
+const test2 = maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4); // 17
+const test3 = maxSubarraySum([4, 2, 1, 6], 1); // 6
+const test4 = maxSubarraySum([4, 2, 1, 6, 2], 4); // 13
+const test5 = maxSubarraySum([], 4); // null
+
+console.log(test1);
+console.log(test2);
+console.log(test3);
+console.log(test4);
+console.log(test5);
 ```
-
-Sliding Window Solution
-
-Remember, this solution will create a “window” for a certain subset of the inputted element, like below:
-
-Note: Math.max( ) returns the largest of 0 or more numbers.
-
-The solution first uses a for loop to set the window (first x numbers). It then uses another for loop that slides the window up one element at a time, comparing the sum to the previous one.
 
 Divide & Conquer
 
