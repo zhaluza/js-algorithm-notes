@@ -122,7 +122,7 @@ The term **auxiliary space complexity** refers to space required by the algorith
 
 - Most **primitives** (booleans, numbers, `undefined`, `null`) are **constant** space
 - Strings require **O(n)** space (where _n_ is the string length)
-- Reference types are generally O(n), where _n_ is the length (for arrays) or the number of keys (for objects)
+- Reference types (arrays and objects) are generally O(n), where _n_ is the length (for arrays) or the number of keys (for objects)
 
 ### Examples
 
