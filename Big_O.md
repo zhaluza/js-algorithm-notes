@@ -11,7 +11,7 @@ For example:
 - **(f(n) = 1)**: _Constant_
 - Etc.
 
-This refers to the **worst-case scenario**: the **upper bound **for runtime.
+This refers to the **worst-case scenario**: the **upper bound** for runtime.
 
 ### Types of Time Complexity (from fast to slow)
 
