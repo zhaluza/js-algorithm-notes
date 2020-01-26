@@ -18,3 +18,7 @@ The markdown files in this repo are a general guide to JavaScript algorithms. Mu
   - This pattern involves creating a window, which can either be an array or number spanning from one position to another.
   - Depending on a certain condition, the window either widens or closes (and a new window is created).
   - Useful for keeping track of a subset of data in an array or string.
+
+* [Divide and Conquer](https://repl.it/@zhaluza/Divide-and-Conquer)
+  - This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data. It's used in certain **searching** and **sorting** algorithms.
+  - This pattern can tremendously decrease time complexity.
