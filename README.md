@@ -22,3 +22,11 @@ The markdown files in this repo are a general guide to JavaScript algorithms. Mu
 * [Divide and Conquer](https://repl.it/@zhaluza/Divide-and-Conquer)
   - This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data. It's used in certain **searching** and **sorting** algorithms.
   - This pattern can tremendously decrease time complexity.
+
+**[Optional Challenges](https://repl.it/repls/folder/Colt%20Steele%20Algos%2FOptional%20Challenges)**
+
+- [sameFrequency](https://repl.it/@zhaluza/sameFrequency)
+  - Write a function called sameFrequency. Given two positive integers, find out if the two numbers have the same frequency of digits.
+- [areThereDuplicates](https://repl.it/@zhaluza/areThereDuplicates)
+  - Implement a function called areThereDuplicates, which accepts a variable number of arguments and checks whether there are any duplicates among the arguments passed in.
+    - Solutions included: Frequency Counter & Pointers
