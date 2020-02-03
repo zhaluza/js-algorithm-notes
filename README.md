@@ -34,3 +34,7 @@ The markdown files in this repo are a general guide to JavaScript algorithms. Mu
 - [averagePair](https://repl.it/@zhaluza/averagePair)
   - Given a sorted array integers and a target average, determine if there is a pair of values in the array where the average of the pair equals the target average. There may be more than one pair that matches the average target.
     - **Strategy:** Multiple Pointers
+
+* [isSubsequence](https://repl.it/@zhaluza/isSubsequence)
+  - Write a function called isSubsequence which takes in two strings and checks whether the characters in the first string form a subsequence of the characters in the second string. In other words, the function should check whether the characters in the first string appear somewhere in the second string — without their order changing.
+    - **Strategy:** Multiple Pointers
