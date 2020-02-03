@@ -27,6 +27,10 @@ The markdown files in this repo are a general guide to JavaScript algorithms. Mu
 
 - [sameFrequency](https://repl.it/@zhaluza/sameFrequency)
   - Write a function called sameFrequency. Given two positive integers, find out if the two numbers have the same frequency of digits.
+    - **Strategy:** Frequency Counter
 - [areThereDuplicates](https://repl.it/@zhaluza/areThereDuplicates)
   - Implement a function called areThereDuplicates, which accepts a variable number of arguments and checks whether there are any duplicates among the arguments passed in.
-    - Solutions included: Frequency Counter & Pointers
+    - **Strategies:** Frequency Counter & Pointers
+- [averagePair](https://repl.it/@zhaluza/averagePair)
+  - Given a sorted array integers and a target average, determine if there is a pair of values in the array where the average of the pair equals the target average. There may be more than one pair that matches the average target.
+    - **Strategy:** Multiple Pointers
