@@ -66,7 +66,7 @@ const merge = (arr1, arr2) => {
 
 ## Merge Sort Pseudocode
 
-(Merging wasn’t too hard… Merge sort is a little different.)
+Now that we have the _merging_ taken care of, let's figure out the whole picture.
 
 - Break up the array into halves until you have arrays that are empty or have one element
   - Use array.slice( ) to do this.
