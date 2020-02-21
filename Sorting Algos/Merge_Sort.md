@@ -2,7 +2,7 @@
 
 - Merge sort is a combination of two things:
   - Merging & sorting
-  - Actually, you could also say that it combines splitting up, merging, & sorting
+- Actually, you could also say that it combines splitting up, merging, & sorting
 - It exploits the fact that arrays of 0 or 1 element are already sorted
 - It works by decomposing an array into smaller arrays of 0 or 1 elements, then building up a newly sorted array
 
