@@ -6,9 +6,9 @@ The markdown files in this repo are a general guide to JavaScript algorithms. Mu
 
 ## Links to Code Examples (on Repl.it)
 
-#### [Main Folder: Colt Steele Algos](https://repl.it/repls/folder/Colt%20Steele%20Algos)
+### [Main Folder: Colt Steele Algos](https://repl.it/repls/folder/Colt%20Steele%20Algos)
 
-**[Problem-Solving Patterns](https://repl.it/repls/folder/Colt%20Steele%20Algos%2FProblem%20Solving%20Patterns)**
+#### **[Problem-Solving Patterns](https://repl.it/repls/folder/Colt%20Steele%20Algos%2FProblem%20Solving%20Patterns)**
 
 - [Frequency Counter](https://repl.it/@zhaluza/Frequency-Counter)
   - Creates separate objects to count the frequency of individual elements in separate arguments.
@@ -23,7 +23,7 @@ The markdown files in this repo are a general guide to JavaScript algorithms. Mu
   - This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data. It's used in certain **searching** and **sorting** algorithms.
   - This pattern can tremendously decrease time complexity.
 
-**[Optional Challenges](https://repl.it/repls/folder/Colt%20Steele%20Algos%2FOptional%20Challenges)**
+#### **[Optional Challenges](https://repl.it/repls/folder/Colt%20Steele%20Algos%2FOptional%20Challenges)**
 
 - [sameFrequency](https://repl.it/@zhaluza/sameFrequency)
   - Write a function called sameFrequency. Given two positive integers, find out if the two numbers have the same frequency of digits.
