@@ -124,6 +124,6 @@ function merge(arr1, arr2) {
 
 ## Big O of Merge Sort
 
-- Time complexity is always O(n log n)
-- Space complexity is always O(n)
+- Time complexity is always **O(n log n)**
+- Space complexity is always **O(n)**
   Merge sort doesn’t care what the data looks like, e.g. whether it’s sorted. It’ll approach the data the same way regardless.
